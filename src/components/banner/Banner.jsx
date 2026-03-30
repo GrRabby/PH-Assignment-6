@@ -4,7 +4,7 @@ import play from "../../assets/play.png"
 import bannerImg from "../../assets/banner.png"
 const Banner = () => {
     return (
-        <div className='flex justify-center items-center gap-15 max-w-400 mx-auto py-[85px]'>
+        <div className='flex justify-center items-center gap-15 max-w-300 mx-auto py-21.25'>
             <div className='flex flex-col justify-start items-start gap-4 max-w-180'>
                 <div className="px-4 py-2 bg-[#E1E7FF] rounded-[1000px] text-[16px] font-medium">
                     <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent flex gap-2 justify-center items-center">

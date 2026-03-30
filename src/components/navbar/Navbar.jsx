@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <>
             <div className=' border border-[#F2F2F2] py-6.5 flex justify-center items-center '>
-                <div className="navbar bg-base-100 max-w-400 mx-auto">
+                <div className="navbar bg-base-100 max-w-300 mx-auto">
                     <div className="navbar-start">
                         <img src={NavLogo} alt="" />
                     </div>

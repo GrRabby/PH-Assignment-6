@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "AI-powered resume builder with ATS optimization and modern templates.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ ATS-friendly templates",
+      "AI writing suggestions",
+      "Export to PDF & DOCX",
+      "Cover letter generator"
+    ],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Creator",
+    "description": "Build stunning developer and designer portfolios in minutes.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "Custom domain support",
+      "Responsive templates",
+      "SEO optimization"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 3,
+    "name": "Invoice Generator",
+    "description": "Simple and fast invoice creation tool for freelancers and businesses.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited invoices",
+      "Tax calculation",
+      "PDF export",
+      "Client management"
+    ],
+    "icon": "🧾"
+  },
+  {
+    "id": 4,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, ads, and social media content using AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Blog post generator",
+      "SEO optimization",
+      "Tone customization",
+      "Plagiarism checker"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": 5,
+    "name": "E-learning Platform Kit",
+    "description": "Complete solution to launch your own online course platform.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Course builder",
+      "Video hosting",
+      "Student dashboard",
+      "Payment integration"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across multiple social platforms.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Multi-platform posting",
+      "Analytics dashboard",
+      "Auto scheduling",
+      "Content calendar"
+    ],
+    "icon": "📅"
+  },
+  {
+    "id": 7,
+    "name": "Website Analytics Pro",
+    "description": "Track visitors, behavior, and performance of your website.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Real-time analytics",
+      "User behavior tracking",
+      "Conversion reports",
+      "Custom dashboards"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 8,
+    "name": "AI Logo Maker",
+    "description": "Generate professional logos instantly using AI.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI logo generation",
+      "High-resolution export",
+      "Brand kit included",
+      "Unlimited revisions"
+    ],
+    "icon": "🎨"
+  }
+]
