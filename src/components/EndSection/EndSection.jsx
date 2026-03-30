@@ -2,8 +2,8 @@ import React from 'react';
 
 const EndSection = () => {
     return (
-        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-30'>
-            <div className='flex flex-col justify-center items-center gap-7'>
+        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-30 px-5'>
+            <div className='flex flex-col justify-center items-center gap-7 text-center'>
                 <h2 className='font-extrabold text-[40px] text-white'>Ready to Transform Your Workflow?</h2>
                 <p className='text-[16px] text-center text-white/80'>Join thousands of professionals who are already using Digitools to work smarter. Start your free trial today.</p>
                 <div className='flex justify-center items-center gap-4'>

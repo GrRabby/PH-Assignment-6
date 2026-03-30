@@ -4,21 +4,19 @@ import CartLogo from "../../assets/Cart.png"
 const Navbar = () => {
     return (
         <>
-            <div className=' border border-[#F2F2F2] py-6.5 flex justify-center items-center '>
-                <div className="navbar bg-base-100 max-w-300 mx-auto">
-                    <div className="navbar-start">
-                        <img src={NavLogo} alt="" />
-                    </div>
-                    <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 gap-6 text-[16px]">
+            <div className=' border border-[#F2F2F2] py-6.5 flex justify-center items-center'>
+                <div className="flex flex-col md:flex-row max-w-300 mx-auto gap-5 items-center justify-center w-full px-5">
+                    <div className="flex flex-col md:flex-row justify-between items-center w-full gap-5">
+                        <div>
+                            <img src={NavLogo} alt="" />
+                        </div>
+                        <ul className="menu-horizontal px-1 gap-4 text-[16px]">
                             <li>Products</li>
                             <li>Features</li>
                             <li>Pricing</li>
                             <li>Testimonials</li>
                             <li>FAQ</li>
                         </ul>
-                    </div>
-                    <div className="navbar-end">
                         <div className='flex justify-center items-center gap-4'>
                             <img src={CartLogo} alt="" />
                             <p>Login</p>

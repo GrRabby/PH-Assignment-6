@@ -18,7 +18,7 @@ const Cards = ({products}) => {
                 {products.tag}
             </div>
         
-            <div className='flex items-center justify-center rounded-[50%] max-h-60 max-w-60 border border-[#F2F2F2] p-4 '>
+            <div className='flex items-center justify-center rounded-[50%] max-h-60 max-w-60 border border-[#F2F2F2] p-2 '>
                 <img src={iconMap[products.icon]} alt="" />
             </div>
             <h2 className='font-bold text-[24px]'>{products.name}</h2>

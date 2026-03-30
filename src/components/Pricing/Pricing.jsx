@@ -3,12 +3,12 @@ import Check from "../../assets/Check.png"
 const Pricing = ({ProceDataPromise}) => {
     const PriceData = use(ProceDataPromise)
     return (
-        <div className='max-w-300 mx-auto flex flex-col gap-10 justify-between items-center py-30'>
-            <div className='flex flex-col justify-between items-center gap-4'>
+        <div className='max-w-300 mx-auto flex flex-col gap-10 justify-between items-center py-30 px-5'>
+            <div className='flex flex-col justify-between items-center gap-4 text-center'>
                 <h2 className='font-extrabold text-[48px]'>Simple, Transparent Pricing</h2>
                 <p className='text-[16px] text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='flex justify-center items-stretch gap-7 w-full'>
+            <div className='flex flex-col md:flex-row justify-center items-stretch gap-7 w-full'>
                 {
                     PriceData.map((prices,index) => {
                         return(

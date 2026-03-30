@@ -5,8 +5,8 @@ import FaceBookLogo from "../../assets/Instagram.png"
 import XLogo from "../../assets/Instagram.png"
 const Footer = () => {
     return (
-        <div className='bg-[#101727] pt-25 pb-7'>
-            <div className='max-w-300 mx-auto grid grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-x-20'>
+        <div className='bg-[#101727] pt-25 pb-7 px-10'>
+            <div className='max-w-300 mx-auto grid grid-rows-1 grid-cols-2 md:grid-cols-3 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-x-20 w-full gap-y-10'>
                 <div className='flex flex-col gap-4'>
                     <img src={FooterLogo} alt="" />
                     <p className='text-white/80 text-[16px]'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
@@ -47,8 +47,8 @@ const Footer = () => {
                     </div>
                     
                 </div>
-                <hr className='min-h-px border-none bg-white/40 col-span-5 mt-20 mb-7' />
-                <div className='flex justify-between items-center col-span-5'>
+                <hr className='min-h-px border-none bg-white/40 col-span-2 md:col-span-3 lg:col-span-5 mt-10' />
+                <div className='flex flex-col md:flex-row justify-between items-center col-span-2 md:col-span-3 lg:col-span-5 gap-3'>
                     <p className='text-white/50 text-[16px]'>© 2026 Digitools. All rights reserved.</p>
                     <div className='flex gap-6'>
                         <p className='text-white/50 text-[16px]'>Privacy Policy</p>
