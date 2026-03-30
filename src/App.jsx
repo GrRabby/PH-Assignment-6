@@ -6,6 +6,7 @@ import State from './components/states/State'
 import DigitalToolsSection from './components/DigitalTools/DigitalToolsSection'
 import GetStarted from './components/GetStartedSection/GetStarted'
 import Pricing from './components/Pricing/Pricing'
+import EndSection from './components/EndSection/EndSection'
 async function fetchproducts(){
     const res = await fetch("/data.json")
     return res.json()
@@ -22,8 +23,8 @@ function App() {
         <DigitalToolsSection ProductsDataPromise={ProductsDataPromise}></DigitalToolsSection>
       </Suspense>
       <GetStarted></GetStarted>
-
       <Pricing></Pricing>
+      <EndSection></EndSection>
     </>
   )
 }

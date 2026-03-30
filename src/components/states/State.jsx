@@ -15,8 +15,8 @@ const State = () => {
                 </div>
                 <div className="min-w-0.5 min-h-17.5 bg-[#FFFFFF]/40"></div>
                 <div className='flex flex-col justify-center items-center gap-3 px-32.5'>
-                    <h1 className='font-extrabold text-[60px] text-white'>50K+</h1>
-                    <p className='font-medium text-[24px] text-white'>Active Users</p>
+                    <h1 className='font-extrabold text-[60px] text-white'>4.9</h1>
+                    <p className='font-medium text-[24px] text-white'>Rating</p>
                 </div>
             </div>
         </div>
