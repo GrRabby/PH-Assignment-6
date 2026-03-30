@@ -13,7 +13,7 @@ const Cards = ({products}) => {
 
     const tagClass = tagStyles[products.tag] || "bg-gray-100 text-gray-600";
     return (
-        <div className='flex flex-col items-start justify-start gap-4 border border-[#F2F2F2] p-6 rounded-2xl relative'>
+        <div className='flex flex-col items-start justify-start gap-4 border border-[#F2F2F2] p-6 rounded-2xl relative shadow-md'>
             <div className={`${baseClass} ${tagClass}`}>
                 {products.tag}
             </div>
