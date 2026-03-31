@@ -16,12 +16,12 @@ const DigitalToolsSection = ({selectedProducts,setSelectedProducts,ProductsDataP
                         () => {
                             setSelectedState('products')
                         }
-                    } className={`btn py-3 px-6 font-semibold rounded-[1000px]  ${selectedState === 'products' ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-transparent text-black"} border-none`}>Products</button>
+                    } className={`transition-all duration-500 btn py-3 px-6 font-semibold rounded-[1000px]  ${selectedState === 'products' ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-transparent text-black"} border-none`}>Products</button>
                     <button onClick={
                         () => {
                             setSelectedState('cart')
                         }
-                    } className={`btn btn-soft border-none ${selectedState === 'cart' ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-transparent text-black"} py-3 px-6 font-semibold rounded-[1000px]`}>Cart ({selectedProducts.length})</button>
+                    } className={`btn btn-soft transition-all duration-500 border-none ${selectedState === 'cart' ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white" : "bg-transparent text-black"} py-3 px-6 font-semibold rounded-[1000px]`}>Cart ({selectedProducts.length})</button>
                 </div>
                 {
                     selectedState === 'products' ? <AvailableProducts ProductsData={ProductsData} selectedProducts={selectedProducts} setSelectedProducts={setSelectedProducts}></AvailableProducts> 

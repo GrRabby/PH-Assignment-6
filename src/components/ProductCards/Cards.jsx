@@ -14,7 +14,7 @@ const Cards = ({selectedProducts,products,setSelectedProducts}) => {
     const inCart = selectedProducts.some(product => product.id === products.id)
     const tagClass = tagStyles[products.tag] || "bg-gray-100 text-gray-600";
     return (
-        <div className='flex flex-col items-start justify-start gap-4 border border-[#F2F2F2] p-6 rounded-2xl relative shadow-md'>
+        <div className='flex flex-col items-start justify-start gap-4 border border-[#F2F2F2] p-6 rounded-2xl relative shadow-md transform hover:scale-102 transition duration-300'>
             <div className={`${baseClass} ${tagClass}`}>
                 {products.tag}
             </div>
@@ -42,11 +42,13 @@ const Cards = ({selectedProducts,products,setSelectedProducts}) => {
                     if (!exists) {
                         setSelectedProducts([...selectedProducts, products]);
                         toast.success("Product added to cart !", {
-                            position: "top-right"
+                            position: "top-right",
+                            className : "max-w-[60vw]"
                             });
                     }else{
                         toast.error("Product already added !", {
-                            position: "top-right"
+                            position: "top-right",
+                            className : "max-w-[60vw]"
                             });
                         }
                     }

@@ -36,7 +36,7 @@ function App() {
       </Suspense>
       <EndSection></EndSection>
       <Footer></Footer>
-      <ToastContainer />
+      <ToastContainer/>
     </>
   )
 }

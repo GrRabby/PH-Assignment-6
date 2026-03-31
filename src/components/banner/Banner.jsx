@@ -16,8 +16,8 @@ const Banner = () => {
                 software—all in one place. Start creating faster today.<br></br>
                 Explore Products</p>
                 <div className='flex justify-center items-center gap-4 mt-4'>
-                    <button className='btn btn-primary py-3 px-4 font-semibold rounded-[10000px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none'>Explore Products</button>
-                    <button className='btn btn-primary shadow-none not-first-of-type:py-3 px-4 font-semibold rounded-[10000px] bg-white'>
+                    <button className='btn btn-primary  hover:scale-105 transition duration-300 py-3 px-4 font-semibold rounded-[10000px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none'>Explore Products</button>
+                    <button className='btn btn-primary hover:scale-105 transition duration-300 shadow-none not-first-of-type:py-3 px-4 font-semibold rounded-[10000px] bg-white'>
                         <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent flex justify-center items-center gap-2">
                            <img src={play} alt="" />Watch Demo
                         </span>

@@ -27,7 +27,7 @@ const Navbar = ({selectedProducts}) => {
                                 
                             </div>
                             <p>Login</p>
-                            <button className='btn btn-primary py-3 px-4 font-semibold rounded-[10000px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none'>Get Started</button>
+                            <button className='btn btn-primary hover:scale-105 transition duration-300 py-3 px-4 font-semibold rounded-[10000px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none'>Get Started</button>
                         </div>
                     </div>
                 </div>
