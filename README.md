@@ -12,6 +12,7 @@ The goal of this project is to create a clean, user-friendly interface with effi
 🟨 JavaScript (ES6+)
 ⚡ Vite
 🌐 HTML5
+
 ✨ Features
 
 1. 🛒 Product Management
@@ -33,4 +34,4 @@ Optimized for mobile, tablet, and desktop devices ensuring smooth user experienc
 
 💡 Author
 
-Rabby
+Gulam Robbani
