@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "AI-powered resume builder with ATS optimization and modern templates.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ ATS-friendly templates",
+      "AI writing suggestions",
+      "Export to PDF & DOCX",
+      "Cover letter generator"
+    ],
+    "icon": "resume"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Creator",
+    "description": "Build stunning developer and designer portfolios in minutes.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "Custom domain support",
+      "Responsive templates",
+      "SEO optimization"
+    ],
+    "icon": "portfolio"
+  },
+  {
+    "id": 3,
+    "name": "Invoice Generator",
+    "description": "Simple and fast invoice creation tool for freelancers and businesses.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "Best Seller",
+    "features": [
+      "Unlimited invoices",
+      "Tax calculation",
+      "PDF export",
+      "Client management"
+    ],
+    "icon": "Invoice"
+  },
+  {
+    "id": 4,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, ads, and social media content using AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Blog post generator",
+      "SEO optimization",
+      "Tone customization",
+      "Plagiarism checker"
+    ],
+    "icon": "design"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across multiple social platforms.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Multi-platform posting",
+      "Analytics dashboard",
+      "Auto scheduling",
+      "Content calendar"
+    ],
+    "icon": "social"
+  },
+  {
+    "id": 5,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "Best Seller",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution",
+      "No expiration"
+    ],
+    "icon": "ecommerce"
+  }
+]
