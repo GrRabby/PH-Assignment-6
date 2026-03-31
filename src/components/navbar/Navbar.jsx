@@ -22,7 +22,7 @@ const Navbar = ({selectedProducts}) => {
                             <div className='relative'>
                                 <img src={CartLogo} alt="" width={20} height={20}/>
                                 {
-                                    selectedProducts.length > 0  && <div className='rounded-[50%] h-5 w-5 bg-red-600 text-[10px] flex items-center justify-center text-white p-3 absolute -top-3.75 -right-3 text-center'>{selectedProducts.length}</div>
+                                    selectedProducts.length > 0  && <div className='rounded-[50%] h-5 w-5 bg-red-600 text-[9px] flex items-center justify-center text-white p-1 absolute -top-3.75 -right-3 text-center'>{selectedProducts.length}</div>
                                 }
                                 
                             </div>
