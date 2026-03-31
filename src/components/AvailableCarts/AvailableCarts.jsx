@@ -24,7 +24,8 @@ const AvailableCarts = ({selectedProducts,setSelectedProducts}) => {
                                     <button onClick={()  => {
                                             setSelectedProducts(pre => pre.filter(product => products.id !== product.id))
                                             toast.success("Product removed from cart !", {
-                                                position: "top-right"
+                                                position: "top-right",
+                                                className : "max-w-[60vw]"
                                             });
                                         }
                                     } className='btn btn-soft bg-red-500 rounded-4xl text-white'>Remove</button>
@@ -42,7 +43,8 @@ const AvailableCarts = ({selectedProducts,setSelectedProducts}) => {
                         () => {
                             setSelectedProducts([])
                             toast.success("Checkout successfull !", {
-                                position: "top-right"
+                                position: "top-right",
+                                className : "max-w-[60vw]"
                             });
                         }
                     } className='btn btn-primary text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none w-full rounded-4xl'>Proceed to Checkout</button>
