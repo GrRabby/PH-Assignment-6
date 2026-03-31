@@ -17,11 +17,11 @@ async function fetchprices(){
     const res = await fetch(import.meta.env.BASE_URL + "PriceData.json")
     return await res.json()
 }
-function App() {
-  const ProductsDataPromise = fetchproducts()
-  const ProceDataPromise = fetchprices()
-  const [selectedProducts,setSelectedProducts] = useState([])
+const ProductsDataPromise = fetchproducts()
+const ProceDataPromise = fetchprices()
 
+function App() {
+  const [selectedProducts,setSelectedProducts] = useState([])
   return (
     <>
       <Navbar selectedProducts={selectedProducts}></Navbar>
