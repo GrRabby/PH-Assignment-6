@@ -4,7 +4,7 @@ import CartLogo from "../../assets/ShopingCart.png"
 import { toast } from 'react-toastify';
 const AvailableCarts = ({selectedProducts,setSelectedProducts}) => {
     return (
-            <div className='grid grid-cols-1 gap-6 bg-[#ffffff] p-10 rounded-2xl w-full'>
+            <div className='grid grid-cols-1 gap-6 bg-[#ffffff] p-5 rounded-2xl w-full'>
             <p className='font-bold text-[24px]'>Your Cart</p>
             {
                 selectedProducts.length > 0 ? (<>
