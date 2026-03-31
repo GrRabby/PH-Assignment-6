@@ -10,12 +10,12 @@ import EndSection from './components/EndSection/EndSection'
 import Footer from './components/footer/Footer'
 import { ToastContainer } from "react-toastify";
 async function fetchproducts(){
-    const res = await fetch("/data.json")
-    return res.json()
+    const res = await fetch(import.meta.env.BASE_URL + "data.json")
+    return await res.json()
 }
 async function fetchprices(){
-    const res = await fetch("/PriceData.json")
-    return res.json()
+    const res = fetch(import.meta.env.BASE_URL + "PriceData.json")
+    return await res.json()
 }
 function App() {
   const ProductsDataPromise = fetchproducts()
