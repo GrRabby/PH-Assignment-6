@@ -10,8 +10,7 @@ const GetStarted = () => {
                     <h2 className='font-extrabold text-[48px]'>Get Started in 3 Steps</h2>
                     <p className='text-[16px] text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
                 </div>
-                {/* <div className='flex justify-center items-center gap-7 text-center'> */}
-                <div className='grid justify-center items-center gap-7 text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
+                <div className='grid justify-center items-center gap-7 text-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-5'>
                     <div className='flex relative flex-col justify-center items-center gap-4 border border-[#F1F1F1] rounded-2xl py-22 px-6 bg-white shadow-md h-full'>
                         <div className='w-8 h-8 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]  absolute flex justify-center items-center top-5 right-5 text-white'>
                             01

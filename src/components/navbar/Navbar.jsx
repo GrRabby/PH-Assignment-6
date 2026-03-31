@@ -1,7 +1,8 @@
 import React from 'react';
 import NavLogo from "../../assets/DigiTools.png"
 import CartLogo from "../../assets/Cart.png"
-const Navbar = () => {
+const Navbar = ({selectedProducts}) => {
+    console.log(selectedProducts)
     return (
         <>
             <div className=' border border-[#F2F2F2] py-6.5 flex justify-center items-center'>
@@ -18,7 +19,13 @@ const Navbar = () => {
                             <li>FAQ</li>
                         </ul>
                         <div className='flex justify-center items-center gap-4'>
-                            <img src={CartLogo} alt="" />
+                            <div className='relative'>
+                                <img src={CartLogo} alt="" width={20} height={20}/>
+                                {
+                                    selectedProducts.length > 0  && <div className='rounded-[50%] h-5 w-5 bg-red-600 text-[10px] flex items-center justify-center text-white p-3 absolute -top-3.75 -right-3 text-center'>{selectedProducts.length}</div>
+                                }
+                                
+                            </div>
                             <p>Login</p>
                             <button className='btn btn-primary py-3 px-4 font-semibold rounded-[10000px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none'>Get Started</button>
                         </div>

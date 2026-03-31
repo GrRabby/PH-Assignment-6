@@ -1,7 +1,8 @@
 import React from 'react';
 import Check from "../../assets/Check.png"
 import iconMap from "../../assets/iconMap/IconMap";
-const Cards = ({products}) => {
+import { toast } from 'react-toastify';
+const Cards = ({selectedProducts,products,setSelectedProducts}) => {
     const baseClass =
         "rounded-[1000px] absolute top-2.5 right-2.5 px-3 py-1";
 
@@ -24,7 +25,7 @@ const Cards = ({products}) => {
             <h2 className='font-bold text-[24px]'>{products.name}</h2>
             <p className='text-[16px] text-[#627382]'>{products.description}</p>
             <p><span className='font-bold text-[24px]'>${products.price}</span>/Mo</p>
-            <div className='flex flex-col justify-center items-start'>
+            <div className='flex flex-col justify-center items-start flex-1'>
                 {
                     products.features.map((features,index) => {
                     return (<div key={index} className='flex justify-center items-center gap-2'>
@@ -35,7 +36,22 @@ const Cards = ({products}) => {
                 }
                 
             </div>
-            <button className='btn btn-primary text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none w-full rounded-4xl'>Buy Now</button>
+            <button onClick={
+                () => {
+                    const exists = selectedProducts.find(p => p.id === products.id);
+                    if (!exists) {
+                        setSelectedProducts([...selectedProducts, products]);
+                        toast.success("Product added to cart !", {
+                            position: "top-right"
+                            });
+                    }else{
+                        toast.error("Product already added !", {
+                            position: "top-right"
+                            });
+                        }
+                    }
+                    
+            } className='btn btn-primary text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none w-full rounded-4xl'>Buy Now</button>
         </div>
     );
 };
