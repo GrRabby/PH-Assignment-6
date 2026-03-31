@@ -23,7 +23,7 @@ const AvailableCarts = ({selectedProducts,setSelectedProducts}) => {
                                     </div>
                                     <button onClick={()  => {
                                             setSelectedProducts(pre => pre.filter(product => products.id !== product.id))
-                                            toast.success("Product removed from cart !", {
+                                            toast.success("Product removed from cart!", {
                                                 position: "top-right",
                                                 className : "max-w-[60vw]"
                                             });
