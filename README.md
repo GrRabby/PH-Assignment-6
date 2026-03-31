@@ -1,16 +1,36 @@
-# React + Vite
+🚀 Project Name
+DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📖 Description
+This project is a responsive web application built as part of Programming Hero Assignment 6. It demonstrates modern frontend development practices including dynamic UI rendering, state management, and user interaction features.
 
-Currently, two official plugins are available:
+The goal of this project is to create a clean, user-friendly interface with efficient functionality and smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🛠️ Technologies Used
+⚛️ React.js
+🎨 Tailwind CSS
+🟨 JavaScript (ES6+)
+⚡ Vite
+🌐 HTML5
+✨ Features
 
-## React Compiler
+1. 🛒 Product Management
+Users can browse products and add them to a cart dynamically with real-time updates.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. 🔔 Toast Notifications
+Interactive toast alerts notify users for actions like adding duplicate products or successful operations.
 
-## Expanding the ESLint configuration
+3. 📱 Fully Responsive Design
+Optimized for mobile, tablet, and desktop devices ensuring smooth user experience across all screens.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Live Demo
+
+👉 https://grrabby.github.io/PH-Assignment-6/
+
+📂 Repository Link
+
+👉 https://github.com/GrRabby/PH-Assignment-6
+
+💡 Author
+
+Rabby
