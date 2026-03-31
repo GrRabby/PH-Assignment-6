@@ -4,7 +4,7 @@ import ProductIcon from "../../assets/package.png"
 import RocketIcon from "../../assets/rocket.png"
 const GetStarted = () => {
     return (
-        <div className='w-full py-30 bg-[#F9FAFC] p-5'>
+        <div className='w-full pb-30 bg-[#F9FAFC] p-5'>
             <div className='max-w-300 mx-auto flex flex-col gap-10 justify-center items-center '>
                 <div className='flex flex-col justify-center items-center gap-4 text-center'>
                     <h2 className='font-extrabold text-[48px]'>Get Started in 3 Steps</h2>
