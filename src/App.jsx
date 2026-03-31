@@ -14,7 +14,7 @@ async function fetchproducts(){
     return await res.json()
 }
 async function fetchprices(){
-    const res = fetch(import.meta.env.BASE_URL + "PriceData.json")
+    const res = await fetch(import.meta.env.BASE_URL + "PriceData.json")
     return await res.json()
 }
 function App() {
