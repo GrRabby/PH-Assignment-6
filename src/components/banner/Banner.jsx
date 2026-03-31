@@ -11,7 +11,7 @@ const Banner = () => {
                         <img src={circle} alt="" /> New: AI-Powered Tools Available
                     </span>
                 </div>
-                <h2 className='font-extrabold text-[52px] md:text-[72px] text-[#101727] text-center md:text-left'>Supercharge Your Digital Workflow</h2>
+                <h2 className='font-extrabold text-[52px] md:text-[72px] text-[#101727] text-center md:text-left'>Supercharge Your <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">Digital Workflow</span></h2>
                 <p className='text-[18px] text-[#627382]'>Access premium AI tools, design assets, templates, and productivity<br></br>
                 software—all in one place. Start creating faster today.<br></br>
                 Explore Products</p>

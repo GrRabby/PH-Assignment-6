@@ -41,6 +41,9 @@ const AvailableCarts = ({selectedProducts,setSelectedProducts}) => {
                     <button onClick={
                         () => {
                             setSelectedProducts([])
+                            toast.success("Checkout successfull !", {
+                                position: "top-right"
+                            });
                         }
                     } className='btn btn-primary text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none w-full rounded-4xl'>Proceed to Checkout</button>
                 </>) : 

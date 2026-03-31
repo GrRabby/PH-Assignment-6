@@ -4,14 +4,14 @@ import iconMap from "../../assets/iconMap/IconMap";
 import { toast } from 'react-toastify';
 const Cards = ({selectedProducts,products,setSelectedProducts}) => {
     const baseClass =
-        "rounded-[1000px] absolute top-2.5 right-2.5 px-3 py-1";
+        "rounded-[1000px] absolute top-2.5 right-2.5 px-3 py-1 font-medium";
 
     const tagStyles = {
         "Best Seller": "bg-[#fef3c6] text-[#cc7732]",
         "New": "bg-[#dbfce7] text-[#3ea568]",
         "Popular": "bg-[#e1e7ff] text-[#8f56fa]",
     };
-
+    const inCart = selectedProducts.some(product => product.id === products.id)
     const tagClass = tagStyles[products.tag] || "bg-gray-100 text-gray-600";
     return (
         <div className='flex flex-col items-start justify-start gap-4 border border-[#F2F2F2] p-6 rounded-2xl relative shadow-md'>
@@ -51,7 +51,7 @@ const Cards = ({selectedProducts,products,setSelectedProducts}) => {
                         }
                     }
                     
-            } className='btn btn-primary text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white border-none w-full rounded-4xl'>Buy Now</button>
+        } className={`btn btn-primary text-[16px] ${inCart  ? "bg-green-600" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"} text-white border-none w-full rounded-4xl`}>{ inCart ? "Added to cart" : "But Now"}</button>
         </div>
     );
 };
